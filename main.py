@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 
 flags = tf.app.flags
 flags.DEFINE_string('data_dir', '/work/cse479/shared/homework/01/', 'directory where MNIST is located')
-flags.DEFINE_string('save_dir', '/lustre/work/cse479/praval395/homework1_mine', 'directory where model graph and weights are saved')
+flags.DEFINE_string('save_dir', '/lustre/work/cse479/praval395/saved_mine', 'directory where model graph and weights are saved')
 flags.DEFINE_integer('batch_size', 50, '')
 flags.DEFINE_integer('max_epoch_num', 1000, '')
 FLAGS = flags.FLAGS
